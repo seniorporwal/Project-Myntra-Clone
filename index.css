@@ -10,7 +10,7 @@ nav {
     height: 80px;
 
     align-items: center;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid grey;
 }
 #menu{
     min-width: 350px;
@@ -30,9 +30,9 @@ nav {
     text-transform: uppercase;
     text-align: center;
     flex-grow: 1;
-    padding-top: 33px;
+    padding-top: 28px;
     height: 48px;
-    border-bottom: 4px solid #ffffff;
+    border-bottom: 4px solid white;
     transition: border-color 0.5s;
 
 }
@@ -47,7 +47,7 @@ nav {
 }
 
 #menu #green:hover{
-    border-bottom: 4px solid green;
+    border-bottom: 5px solid green;
 }
 nav #yellow:hover{
     border-bottom: 4px solid darkgoldenrod;
