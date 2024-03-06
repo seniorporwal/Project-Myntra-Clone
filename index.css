@@ -10,7 +10,7 @@ nav {
     height: 80px;
 
     align-items: center;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #ffffff;
 }
 #menu{
     min-width: 350px;
@@ -32,6 +32,8 @@ nav {
     flex-grow: 1;
     padding-top: 33px;
     height: 48px;
+    border-bottom: 4px solid #ffffff;
+    transition: border-color 0.5s;
 
 }
 
@@ -44,8 +46,23 @@ nav {
     line-height: 0;
 }
 
-nav a:hover{
-    border-bottom: 4px solid #ff3f6c;
+#menu #green:hover{
+    border-bottom: 4px solid green;
+}
+nav #yellow:hover{
+    border-bottom: 4px solid darkgoldenrod;
+}
+nav #lavender:hover{
+    border-bottom: 4px solid violet;
+}
+nav #aqua:hover{
+    border-bottom: 4px solid aqua;
+}
+nav #pink:hover{
+    border-bottom: 4px solid slategrey;
+}
+nav #red:hover{
+    border-bottom: 4px solid red;
 }
 
 #icon {
