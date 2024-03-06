@@ -18,6 +18,8 @@ nav {
     display: flex;
     flex-grow: 1;
     align-items: center;
+    padding-right: 50px;
+    box-sizing: border-box;
 
 }
 #menu a {
@@ -30,14 +32,22 @@ nav {
     flex-grow: 1;
     padding-top: 33px;
     height: 48px;
+
+}
+
+#menu a sup {
+
+    color:  #ff3f6c;
+    position: relative;
+    top: -0.4rem;
+    vertical-align: baseline;
+    line-height: 0;
 }
 
 nav a:hover{
     border-bottom: 4px solid #ff3f6c;
 }
-sup {
-    color:  #ff3f6c;
-}
+
 #icon {
     padding-left: 50px;
     padding-right: 10px;
